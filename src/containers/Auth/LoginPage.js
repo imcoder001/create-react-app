@@ -28,6 +28,7 @@ class LoginPage extends React.Component {
   }
 
   componentDidMount() {
+    alert(process.env.JOB_NAME);
     window.scrollTo(0, 0);
   }
 
