@@ -28,6 +28,7 @@ class LoginPage extends React.Component {
   }
 
   componentDidMount() {
+    alert(process.env.REACT_APP_PEXEL_API);
     window.scrollTo(0, 0);
   }
 
